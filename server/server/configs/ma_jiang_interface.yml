@@ -1,0 +1,45 @@
+ENTER_ROOM:
+  roomID: int
+  data: str
+  x: float
+  y: float
+  _client: dict
+
+EXIT_ROOM:
+
+OWNER_DISMISS:
+
+PLAYER_CHU_PAI:
+  cards: int
+
+PLAYER_PASS:
+
+READY:
+
+REQUEST_DISMISS:
+  agree: bool
+
+CLIENT_BROAD_CAST:
+  data: dict
+
+PLAYER_PENG:
+  cards: list
+
+PLAYER_GANG:
+  cards: list
+
+PLAYER_BU:
+  cards: list
+
+PLAYER_HU_PAI:
+
+PLAYER_CHI:
+  cards: list
+
+DEBUG_SET_CARDS:
+
+REQUEST_POSITION:
+
+PLAYER_CHUI:
+  chui: int
+

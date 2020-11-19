@@ -1,0 +1,19 @@
+# 【牌型说明】请见相关设计文档
+SI_DAI_ER = 11
+SAN_DAI_YI = 10
+SI_DAI_SAN = 9
+ZHA_DAN = 8
+SHUN_ZI = 7
+FEI_JI_DAI_CHI_BANG = 6
+SAN_DAI_ER = 5
+LIAN_DUI = 4
+SAN_ZHANG = 3
+YI_DUI = 2
+DAN_ZHANG = 1
+
+TE_SHU_PAI_XING = [ZHA_DAN]
+
+IS_EQUAL = 1  # 相等
+IS_MORE = 2  # 大于
+IS_LESS = 3  # 小于
+IS_ILLEGAL = 4  # 非法

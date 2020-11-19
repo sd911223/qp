@@ -1,0 +1,38 @@
+{
+    "agent_port": 20003,
+    "is_debug": true,
+    "router_allow_ips": [
+        "127.0.0.1"
+        ],
+    "router_port": 20002,
+    "router_ip": "127.0.0.1",
+    "db_game": {
+        "pool_name": "hswl_game",
+        "use_dict_cursor": false,
+        "host": "localhost",
+        "password": "",
+        "port": 3306,
+        "user": "root",
+        "database": "game"
+
+    },
+    "db_logs": {
+        "pool_name": "hswl_logs",
+        "use_dict_cursor": false,
+        "port": 3306,
+        "user": "root",
+        "host": "localhost",
+        "password": "",
+        "database": "game_logs"
+
+    },
+    "redis_game": {
+        "host": "localhost",
+        "port": 6379,
+        "db": 0,
+        "password": ""
+
+    }
+
+}
+

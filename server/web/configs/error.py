@@ -1,0 +1,55 @@
+# coding:utf-8
+
+# 服务端错误码列表：类型为short
+OK = 1
+SIGN_FAIL = -1  # 签名错误
+DATA_BROKEN = -2  # 客户端请求数据错误，不符合即定格式
+SYSTEM_ERR = -3  # 系统错误
+ROOM_NOT_EXIST = -4  # 房间不存在
+HAVE_OTHER_ROOM = -5  # 已经创建了别的房间
+UID_ERROR = -6  # 错误的UID
+
+PASSWORD_ERR = -7  # 密码错误
+DIAMONDS_NOT_ENOUGH = -8  # 钻石不足
+ACCESS_DENNY = -9  # 操作被禁止
+VERIFY_CODE_ERR = -10  # 验证码错误
+OPERATION_TOO_FREQUENT = -11  # 操作过于频繁
+
+SHARE_CODE_NOT_EXIST = -12  # 不存在的分享码
+AUTO_TOKEN_EXPIRED = -13  # 自动登录的token已过期
+CREATE_ROOM_LIMIT = -14  # 代开房数量已满
+NEED_LEFT_DIAMONDS = -15  # 剩余钻石不足
+
+CLUB_COUNT_IS_MAX = -16  # 俱乐部数量达上限
+CLUB_IS_JOIN = -17  # 当前已加入俱乐部
+CLUB_STATUS_IS_ERROR = -18  # 俱乐部不存在或当前在解散中
+CLUB_IS_FULL = -19  # 俱乐部人数已满
+CLUB_LEVEL_IS_MAX = -20  # 俱乐部等级已达上限
+ONLY_KICK_COMM_USER = -21  # 只能踢普通成员
+COMM_USER_NOT_CREATE_CLUB = -22  # 普通玩家不允许创建俱乐部
+CLUB_AUTO_ROOM_NEED_CONFIG = -23  # 俱乐部自动开房需要先配置
+CREATE_CLUB_ERROR_DIAMOND = -24  # 创建俱乐部钻石不足
+
+NOT_AGENT = -28  # 绑定人非代理
+ALREADY_BIND_AGENT = -29  # 已经绑定代理
+REFER_USER_ERROR = -30
+MAX_WITHDRAW_COUNT = -31
+OVER_GLOBAL_MAX_WITHDRAW = -32
+DIAMONDS_CLUB_NOT_ENOUGH = -33  # 钻石不足，加上俱乐部的房间
+LA_JIAO_DOU_NOT_ENOUGH = -34  # 辣椒豆不足
+DOU_COUNT_ERROR = -35
+SCORE_ERROR = -36  # 积分不足
+SIGN_DAY_ERROR = -37  # 今天已经签到
+POSTION_UNKNOWN = -38  # 位置不明不予进入
+LIMITION_ERROR = -39  # 超出领取次数
+ENERGY_NOT_EMPTY = -40
+NOT_UNION = -41
+OWNER_BIG_UNION = -42
+
+OVER_100W_DOU = -60
+UPGRADE_COUNT_ERROR = -61
+OVER_FLOOR = -62
+
+CLUB_TASK_NOT_OPEN = -70
+CLUB_TASK_NOT_FINISH = -71
+CLUB_TASK_ALREADY_RECEIVE = -72

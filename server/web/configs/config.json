@@ -1,0 +1,38 @@
+{
+
+    "is_debug": true,
+    "agent_port": 20003,
+    "router_ip": "127.0.0.1",
+    "router_port": 20002,
+    "db": {
+        "host": "127.0.0.1:3306",
+        "password": "",
+        "user": "root",
+        "database": "game"
+
+    },
+    "db_logs": {
+        "host": "127.0.0.1:3306",
+        "password": "",
+        "user": "root",
+        "database": "game_logs"
+
+    },
+    "redis": {
+        "host": "127.0.0.1",
+        "port": "6379",
+        "db": 0,
+        "password": "",
+        "socket_timeout": 5
+
+    },
+    "open_white_list": false,
+    "white_list_channels": [],
+    "white_list": [
+        20006
+
+        ],
+    "game_name": ""
+
+}
+
